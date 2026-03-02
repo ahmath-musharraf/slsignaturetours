@@ -41,7 +41,7 @@ const BottomNav = () => {
           );
         })}
         <a 
-          href="tel:+94771234567"
+          href="tel:+94756972582"
           className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white shadow-lg shadow-primary/20 hover:bg-accent hover:text-primary transition-all active:scale-90"
         >
           <Phone size={18} />
