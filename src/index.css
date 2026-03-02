@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-primary: #0A1A2F; /* Deep Navy Professional */
+  --color-secondary: #1B4332; /* Forest Green */
+  --color-accent: #C5A028; /* Classic Gold */
+  --color-sand: #F8F9FA; /* Clean Light Gray/White */
+  --color-ink: #111827; /* Near Black for text */
+}
+
+@layer base {
+  body {
+    @apply bg-white text-ink font-sans antialiased transition-colors duration-300;
+  }
+  .dark body {
+    @apply bg-primary text-white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-tight leading-tight;
+  }
+}
+
+@layer utilities {
+  .text-display {
+    font-size: clamp(2.5rem, 8vw, 5.5rem);
+    @apply font-serif font-bold leading-[1.1];
+  }
+  
+  .text-label {
+    @apply text-[11px] uppercase tracking-[0.2em] font-bold text-accent;
+  }
+
+  .section-padding {
+    @apply py-24 lg:py-32;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl dark:bg-white/5 dark:border-white/10;
+  }
+}
+
+.glass-nav {
+  @apply bg-white/90 backdrop-blur-md border-b border-slate-100 shadow-sm dark:bg-primary/90 dark:border-white/10;
+}
+
+.btn-primary {
+  @apply bg-primary text-white px-10 py-4 rounded-lg font-semibold transition-all duration-300 hover:bg-primary/90 hover:shadow-lg active:scale-95 flex items-center justify-center gap-2;
+}
+
+.btn-outline {
+  @apply border-2 border-primary text-primary px-10 py-4 rounded-lg font-semibold transition-all duration-300 hover:bg-primary hover:text-white active:scale-95 flex items-center justify-center gap-2;
+}
+
+.btn-accent {
+  @apply bg-accent text-white px-10 py-4 rounded-lg font-semibold transition-all duration-300 hover:bg-accent/90 hover:shadow-lg active:scale-95 flex items-center justify-center gap-2;
+}
+
+.image-parallax {
+  @apply transition-transform duration-1000 ease-out;
+}
+
+@keyframes slow-zoom {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.1); }
+}
+
+.animate-slow-zoom {
+  animation: slow-zoom 20s infinite alternate ease-in-out;
+}
