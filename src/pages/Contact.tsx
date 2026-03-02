@@ -67,8 +67,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-sm text-slate-400 uppercase tracking-widest font-bold mb-1">Phone</p>
-                      <p className="text-lg text-primary dark:text-white font-medium">+94 11 234 5678</p>
-                      <p className="text-slate-500 dark:text-slate-400">+94 77 123 4567 (WhatsApp)</p>
+                      <p className="text-lg text-primary dark:text-white font-medium">+94 75 697 2582</p>
+                      <p className="text-slate-500 dark:text-slate-400">+94 75 697 2582 (WhatsApp)</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
