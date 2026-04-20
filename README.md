@@ -1,20 +1,55 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌍 SL Signature Tours Website
 
-# Run and deploy your AI Studio app
+A modern travel and tourism website designed to showcase tour packages, destinations, and travel services with an engaging user experience.
 
-This contains everything you need to run your app locally.
+🔗 **Live Website:** https://slsignaturetours.vercel.app/
+🎨 **Created by:** *Mushi Editz*
 
-View your app in AI Studio: https://ai.studio/apps/178fbca7-0bfc-4a71-afc5-5ec69cd4fcda
+---
 
-## Run Locally
+## ✨ Project Overview
 
-**Prerequisites:**  Node.js
+SL Signature Tours is a visually appealing and user-friendly website built to promote travel experiences and tour services. The platform highlights destinations, tour packages, and customer-focused travel solutions.
 
+Travel websites typically focus on delivering seamless booking experiences, showcasing destinations, and providing reliable services such as tours, hotel bookings, and transportation Signature Travel and Tours)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🚀 Features
+
+* 🌐 Responsive modern UI/UX design
+* 🏝️ Tour packages & destination showcase
+* 📸 High-quality visuals and layout
+* 📱 Mobile-friendly interface
+* ⚡ Fast loading (deployed via Vercel)
+* 📞 Contact & inquiry sections
+
+---
+
+## 🎯 Purpose
+
+The goal of this project is to:
+
+* Promote tourism services digitally
+* Provide a professional online presence
+* Improve customer engagement
+* Showcase travel experiences visually
+
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+---
+
+## 📞 Contact
+
+**Mushi Editz**
+📍 Dubai, UAE 🇦🇪 | Sri Lanka 🇱🇰
+📱 +971 58 146 2540
+
+---
+
+## 📄 License
+This project is licensed under the MIT License.
+
